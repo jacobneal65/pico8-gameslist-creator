@@ -10,9 +10,9 @@ def pico_xml_parse():
         image = game.findtext('image')
 
 
-
 if __name__ == '__main__':
     pico_xml_parse()
+    # test
 
 # <?xml version="1.0"?>
 # <game>
