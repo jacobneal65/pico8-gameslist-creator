@@ -8,7 +8,8 @@ def pico_xml_parse():
     # xml = ElementTree.parse(xml_path)
 
     # grab the name of all the files
-    carts = glob.glob(os.path.expanduser('~\\testgamelistforpico8\\*'))
+    # carts = glob.glob(os.path.expanduser('~\\testgamelistforpico8\\*'))
+    carts = glob.glob(os.path.expanduser('~\\Desktop\\new carts\\*'))
 
     # - Create new XML document with its root element
     doc = xml.dom.minidom.parseString("<gameList/>")
